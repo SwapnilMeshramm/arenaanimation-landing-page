@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arena Animation Nagpur - Creative Education</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="landing.css">
+    <link rel="icon" type="image/png" href="img2/logo.png">
+    <link rel="apple-touch-icon" href="img2/logo.png">
+    <link rel="shortcut icon" href="img2/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="img2/Logo white.png" alt="Arena Animation Logo"></a>
+                </div>
+                <div class="menu">
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-buttons">
+                    <a href="tel:+919657920200" class="call-btn">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Call Now</span>
+                    </a>
+                    <button class="mobile-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right">
+                    <h1>Unlock Your <span>Creative</span> Potential</h1>
+                    <p>Join India's leading animation and multimedia training institute. Learn from industry experts and kickstart your creative career.</p>
+                    <div class="hero-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Industry Expert Faculty</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>100% Placement Assistance</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>State-of-the-art Infrastructure</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-form" data-aos="fade-left">
+                    <div class="form-container">
+                        <h3>Enquire Now</h3>
+                        <form id="enquiryForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="d6878191-4b02-473e-bffe-a56e76f031ca">
+                            <div class="form-group">
+                                <input type="text" name="full_name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="number" placeholder="Phone Number" required>
+                            </div>
+                            <div class="form-group">
+                                <select name="course_interest" required>
+                                    <option value="">Select Course Interest</option>
+                                    <option value="Prime Animation">Prime Animation</option>
+                                    <option value="Prime VFX">Prime VFX</option>
+                                    <option value="Graphic & Web Design">Graphic & Web Design</option>
+                                    <option value="Digital Marketing">Digital Marketing</option>
+                                    <option value="3D Animation">3D Animation</option>
+                                    <option value="UI & UX Design">UI & UX Design</option>
+                                    <option value="Motion Graphic Design">Motion Graphic Design</option>
+                                    <option value="Short-Term">Short-Term Courses</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="submit-btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="featured-courses">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Featured Courses</h2>
+                <p>Choose from our industry-relevant courses</p>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card" data-aos="fade-up">
+                    <div class="course-image">
+                        <video src="img2/Animation.mp4" loop autoplay muted playsinline poster="img2/coverimg3.jpg"></video>
+                        <div class="course-overlay">
+                            <div class="overlay-content">
+                                <h4>Course Details</h4>
+                                <ul>
+                                    <li><i class="fas fa-clock"></i> 27 Months Duration</li>
+                                    <li><i class="fas fa-certificate"></i> Industry Certification</li>
+                                    <li><i class="fas fa-briefcase"></i> 100% Placement Support</li>
+                                </ul>
+                                <a href="courses/prime-animation.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-tag">Animation</div>
+                        <h3>Animation Prime</h3>
+                        <p>Master 2D & 3D animation techniques</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-star"></i> 4.8</span>
+                            <span><i class="fas fa-users"></i> 500+ Students</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="course-image">
+                        <video src="img2/advertisement.mp4" loop autoplay muted playsinline poster="img2/downcoverimg.jpg"></video>
+                        <div class="course-overlay">
+                            <div class="overlay-content">
+                                <h4>Course Details</h4>
+                                <ul>
+                                    <li><i class="fas fa-clock"></i> 24 Months Duration</li>
+                                    <li><i class="fas fa-certificate"></i> Industry Certification</li>
+                                    <li><i class="fas fa-briefcase"></i> 100% Placement Support</li>
+                                </ul>
+                                <a href="courses/vfx-prime.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-tag">VFX</div>
+                        <h3>VFX Prime</h3>
+                        <p>Learn visual effects and compositing</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-star"></i> 4.9</span>
+                            <span><i class="fas fa-users"></i> 450+ Students</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="course-image">
+                        <img src="img2/digitalbgimg.avif" alt="Graphic Design Course">
+                        <div class="course-overlay">
+                            <div class="overlay-content">
+                                <h4>Course Details</h4>
+                                <ul>
+                                    <li><i class="fas fa-clock"></i> 12 Months Duration</li>
+                                    <li><i class="fas fa-certificate"></i> Industry Certification</li>
+                                    <li><i class="fas fa-briefcase"></i> 100% Placement Support</li>
+                                </ul>
+                                <a href="courses/graphic-and-web-development.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-tag">Design</div>
+                        <h3>Graphic Design</h3>
+                        <p>Master digital design tools</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-star"></i> 4.7</span>
+                            <span><i class="fas fa-users"></i> 600+ Students</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="course-image">
+                        <img src="img2/homeimg1.jpg" alt="Web Development Course">
+                        <div class="course-overlay">
+                            <div class="overlay-content">
+                                <h4>Course Details</h4>
+                                <ul>
+                                    <li><i class="fas fa-clock"></i> 8 Months Duration</li>
+                                    <li><i class="fas fa-certificate"></i> Industry Certification</li>
+                                    <li><i class="fas fa-briefcase"></i> 100% Placement Support</li>
+                                </ul>
+                                <a href="courses/graphic-and-web-development.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-tag">Graphics</div>
+                        <h3>Motion Graphics</h3>
+                        <p>Master motion design, animation, and visual effects for dynamic content</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-star"></i> 4.8</span>
+                            <span><i class="fas fa-users"></i> 550+ Students</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Student Testimonials</h2>
+                <p>What our students say about us</p>
+            </div>
+            <div class="swiper testimonials-slider" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Arena Animation helped me turn my passion into a profession. The faculty is extremely supportive and the curriculum is industry-relevant."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Rahul Sharma</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"The practical approach to learning at Arena Animation gave me the confidence to work on real projects. I'm now working with a leading animation studio."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Priya Patel</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"The placement support at Arena Animation is excellent. They helped me land my dream job right after completing the course."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Amrita</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"In Arena Animation Tilak Road, Excellent faculty, they clear each and every doubt. The seniors will help you too, if the teachers aren't available. The environment of the place is really calm and posh.
+                                    "</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Krishna Thakur</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 5 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Arena animation tilak road pune People are very helpful. Good place to learn and grow. The best part is that the faculties get to learn cutting edge software, and become masters in it."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Santosham</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 6 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Good faculty , good comrades teachers help in our work. Respecting one another. Thank you arena animation Tilak Road Pune."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Pramod Jarhad</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 7 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Faculty and teaching system is very good. Activities and various events are organized every month in Arena Animation Tilak Road."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>KUSHAL</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 8 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Nice faculty good experience of learning Arena Animation Tilak Road is the best institute for Carrier opportunity nd bright future."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Kamble</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 9 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"In Arena Animation Tilak Road institute everything is perfect especially our faculties are always helpful and supporting during the whole course & good nature."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>
+                                        Abhishek Dhawde</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 10 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Arena Animation Tilak Road is a great institute for carrier opportunity and bright future. Faculties which teaches to the students are amazing, have very good experience."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Ajit</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+                </div>
+                <!-- Add navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- Add pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="social-media">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Connect With Us</h2>
+                <p>Follow us on social media for updates and inspiration</p>
+            </div>
+            <div class="social-grid">
+                <a href="https://www.facebook.com/punearenaanimation/" class="social-card" data-aos="fade-up">
+                    <i class="fab fa-facebook-f"></i>
+                    <h3>Facebook</h3>
+                    <p>Join our community</p>
+                </a>
+
+                <a href="https://www.instagram.com/arenaanimationtilakroad/" class="social-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <p>See our work</p>
+                </a>
+
+                <a href="https://api.whatsapp.com/send/?phone=919657920200" class="social-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp</h3>
+                    <p>Chat with us</p>
+                </a>
+
+                <a href="https://www.youtube.com/user/TilakroadArena" class="social-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fab fa-youtube"></i>
+                    <h3>YouTube</h3>
+                    <p>Watch tutorials</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img2/Logo white.png" alt="Arena Animation Logo">
+                    <p>Arena Animation, a pioneer in the global media and entertainment training industry.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-phone"></i> +91 8855813977, 8855056977</p>
+                    <p><i class="fas fa-envelope"></i> arenaanimationtilakroadpune@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Arena Animation Tilak Road, 501, Pinnacle Pride, Above Maharashtra electronics, Opp Cosmos Bank, Tilak Road, Pune - 411030</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 All Copyrights Reserved to Arena Animation Tilak Road Pune . All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="https://www.arenatilakroad.com/privacy-policy/">Privacy Policy</a>
+                    <a href="https://www.arenatilakroad.com/terms-and-conditions/">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="landing.js"></script>
+</body>
+
+</html> 
